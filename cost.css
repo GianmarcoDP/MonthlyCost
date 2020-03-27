@@ -17,13 +17,20 @@ font-size: 20px;
 clear:left;
 }
 
-ul {
+.nav {
 list-style-type: none;
 margin: 0;
 padding: 0;
-width: 200px;
 background-color: #333333;
 float:left;
+}
+
+.list {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: fit-content;
+background-color: #333333;
 }
 
 li, a {
@@ -31,6 +38,7 @@ display: block;
 color: #f2f2f2;
 padding: 8px 16px;
 text-decoration: none;
+float:left;
 }
 
 li a:hover {
